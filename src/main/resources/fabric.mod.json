@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cucumber",
+  "version": "${version}",
+  "name": "cucumber",
+  "description": "Neverlose-style GUI with themes and a nearby player list (radius slider 100-10000). Press O.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["cucumber.mixins.json"],
+  "entrypoints": {
+    "client": ["com.cucumber.CucumberMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
